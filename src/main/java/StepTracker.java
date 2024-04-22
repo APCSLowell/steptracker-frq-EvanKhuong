@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 public class StepTracker
 {
- /* to be implemented here */
+ private int s;
+ 
+ public StepTracker(steps){s=steps}
+
+ public addDailySteps(){}
 } 
