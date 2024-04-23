@@ -14,7 +14,7 @@ public class StepTracker
  public void addDailySteps(int x){
   s+=x;
   d++;
-  if (s>=a)
+  if (x>=a)
    d++;
  }
  
