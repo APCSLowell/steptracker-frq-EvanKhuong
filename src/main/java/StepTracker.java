@@ -15,11 +15,11 @@ public class StepTracker
   s+=x;
   d++;
   if (x>=a)
-   d++;
+   aD++;
  }
  
  public int activeDays(){
-  return d;
+  return aD;
  }
  
  public double averageSteps(){
