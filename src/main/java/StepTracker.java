@@ -24,7 +24,7 @@ public class StepTracker
  public double averageSteps(){
   if (d==0)
    return 0.0;
-  return (double) s/d;
+  else return (double) s/d;
  }
  
 } 
