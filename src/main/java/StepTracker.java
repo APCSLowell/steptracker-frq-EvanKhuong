@@ -12,7 +12,7 @@ public class StepTracker
 
  public void addDailySteps(int x){
   s+=x;
-  tD++;
+  d++;
   if (s>a)
    d++;
  }
