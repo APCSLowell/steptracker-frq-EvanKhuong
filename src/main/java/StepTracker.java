@@ -2,13 +2,13 @@ import java.util.ArrayList;
 public class StepTracker
 {
  private int a, s;
- private int aD, d;
+ private int d, aD;
  
  public StepTracker(int steps){
   a=steps;
   s=0;
-  aD=0;
   d=0;
+  aD=0;
  }
 
  public void addDailySteps(int x){
